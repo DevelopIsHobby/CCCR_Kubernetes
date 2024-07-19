@@ -3,7 +3,7 @@
     </div>
     <div align= "center"> 
     <h2 style="border-bottom: 1px solid #d8dee4; color: #282d33;"> 🐶개발환경 </h2>  
-    <div style="font-weight: 700; font-size: 15px; text-align: center; color: #282d33;"> </li>컨트롤 노드 : <b>Ubuntu</b></div><div>제어노드 : <b>Ubuntu</b></div>
+    <div style="font-weight: 700; font-size: 15px; text-align: center; color: #282d33;"> </li>컨트롤 노드 : <b>Ubuntu</b></div><div>제어노드 : <b>Ubuntu</b></div><div>쿠버네티스 : <b>Kubespary</b></div>
     </div>
     <div align= "center"> 
     <h2 style="border-bottom: 1px solid #d8dee4; color: #282d33;"> 🧸구현 기능 </h2>  
@@ -73,8 +73,8 @@
     <div align= "center">
     <h2 style="border-bottom: 1px solid #d8dee4; color: #282d33;"> 🛠️ Tech Stacks </h2> <br> 
     <div style="margin: 0 auto; text-align: center;" align= "center">
-          <img src="https://img.shields.io/badge/Linux-FCC624?style=plastic&logo=Linux&logoColor=black">
-          <img src="https://img.shields.io/badge/Terraform-623CE4?style=plastic&logo=Terraform&logoColor=white">
+        <img src="https://img.shields.io/badge/Ubuntu-E95420?style=plastic&logo=Ubuntu&logoColor=white">
+        <img src="https://img.shields.io/badge/Kubernetes-326ce5?style=plastic&logo=Kubernetes&logoColor=white">
           </div>
     </div>
 <div align="center">
