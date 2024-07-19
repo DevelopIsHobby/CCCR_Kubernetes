@@ -10,6 +10,7 @@
     <div style="font-weight: 700; font-size: 15px; text-align: center; color: #282d33;">
     <i>NFS Storage(Dynamic Provisioning)</i><br>
     <i>Dockerfile 활용 워드 프레스 이미지 직접 생성</i><br>
+    <i>워드프레스 구축</i><br>
     <i>StatefulSet 활용 DB 이중화</i><br>
     <i>Ingress & AutoScaling 구현</i><br>
    </div> 
