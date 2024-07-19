@@ -23,7 +23,7 @@
   <h3>1. DB 이중화</h3>
   <details>
       <h5>읽기 복제본에 "hello mysql"이 동기화 됨</h5>
-      <img src="https://github.com/user-attachments/assets/d12fd0e6-c1d0-4680-8c64-bd577c8133c7" width="800" height="400" ><br><br>
+      <img src="https://github.com/user-attachments/assets/d12fd0e6-c1d0-4680-8c64-bd577c8133c7" width="800" height="400" >
       <h5>읽기 복제본에 워드프레스 데이터베이스 저장</h5>
       <img src="https://github.com/user-attachments/assets/7430f10d-6ec2-40c0-a02f-ae745decc62f"width="600" height="650" >
       <h5>읽기 복제본에 워드프레스 사용자 저장</h5>
@@ -34,10 +34,10 @@
       <details>
       <h5>도커 이미지 생성 후 도커 허브에 저장</h5>
       <img src="https://github.com/user-attachments/assets/b293f982-c7ad-48b9-be95-e72673d75c6c"width="700" height="100" ><br>
-      <img src="https://github.com/user-attachments/assets/c9bde1ad-2fc7-49d3-aff8-2fd6356de84a"width="700" height="170">
+      <img src="https://github.com/user-attachments/assets/c9bde1ad-2fc7-49d3-aff8-2fd6356de84a"width="700" height="170"><br>
       <img src="https://github.com/user-attachments/assets/27fe1706-c628-4bfd-8bf2-0f2f49733728"width="700" height="500" >
       <h5>도커 컨테이너 실행</h5>
-      <img src="https://github.com/user-attachments/assets/c6e0cd8d-91d3-4650-a644-199da7eca85d"width="1200" height="100" >
+      <img src="https://github.com/user-attachments/assets/c6e0cd8d-91d3-4650-a644-199da7eca85d"width="1200" height="100" ><br>
       <img src="https://github.com/user-attachments/assets/39d9df61-4429-453c-8e4b-f005a0e6f402"width="600" height="650" >
      </details>
       
@@ -63,7 +63,7 @@
         <h5>HPA 생성 확인</h5>
         <img src="https://github.com/user-attachments/assets/2183d896-0d41-4c3b-9034-33a704fd114f" width="650" height="70">
         <h5>오토스케일링 동작 확인</h5>
-        <img src="https://github.com/user-attachments/assets/000ba7ca-6944-477e-8ee6-b597ce6b2d70" width="650" height="160">
+        <img src="https://github.com/user-attachments/assets/000ba7ca-6944-477e-8ee6-b597ce6b2d70" width="650" height="160"><br>
         <img src="https://github.com/user-attachments/assets/b5d28dcf-7781-4fa4-bfa0-9fc2a60a1935" width="650" height="600">
       </details>
 
@@ -79,8 +79,9 @@
     </div>
 <div align="center">
   <h2 style="border-bottom: 1px solid #d8dee4; color: #282d33;">😃 소감 🥲</h2>
-    :star:AWS 콘솔에서 일일히 만들고 지워야 했던 것에 비해 매우 편리하게 서비스를 구성할 수 있었다.<br>
-    :sweat_drops:모듈을 좀 더 세분화 할 수 있었다면 좋았을 것 같다.<br>
+    :star:도커를 이용해서 워드프레스를 구축하는 이미지를 생성해 볼 수 있었다.<br>
+    :star:쿠버네티스 이미지에 이미 파일이 존재할 때 PVC가 마운트 되면서 빈 디렉토리로 덮어씌워지는 현상을 해결할 수 있었다.<br>
+    :star:오토스케일링까지 구현할 수 있었다.<br>
 </div>
 
 
