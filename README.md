@@ -50,12 +50,21 @@
       <h5>워드프레스</h5>
       <img src="https://github.com/user-attachments/assets/7ade152a-7862-488c-b7fb-722d459d6799"width="600" height="650" ></details>
 
-   <h3>4. AutoScaling</h3>
+   <h3>4. Ingress 서비스</h3>
       <details>
-        <h5>오토스케일링 그룹 확인</h5>
-        <img src="https://github.com/DevelopIsHobby/CCCR_Terraform/assets/107912101/7f044f14-ba23-44af-b56a-49d93b8dcc9a" width="900" height="250">
-        <h5>4개의 인스턴스 추가(오토스케일링 그룹 희망 용량 1로 설정)</h5>
-        <img src="https://github.com/DevelopIsHobby/CCCR_Terraform/assets/107912101/016f64c7-5730-47f2-aa96-8db822fec604" width="800" height="350"><br>
+        <h5>인그레스 생성 확인</h5>
+        <img src="https://github.com/user-attachments/assets/cfebb7e5-6ee0-4746-957e-b81fbcdabbcf" width="650" height="350">
+        <h5>인그레스 동작 확인</h5>
+        <img src="https://github.com/user-attachments/assets/61d58cd4-92b5-43f9-9cd2-2576fd27dd4c" width="650" height="400"><br>
+      </details>
+      
+   <h3>5. AutoScaling 구현</h3>
+      <details>
+        <h5>HPA 생성 확인</h5>
+        <img src="https://github.com/user-attachments/assets/2183d896-0d41-4c3b-9034-33a704fd114f" width="650" height="70">
+        <h5>오토스케일링 동작 확인</h5>
+        <img src="https://github.com/user-attachments/assets/000ba7ca-6944-477e-8ee6-b597ce6b2d70" width="650" height="160">
+        <img src="https://github.com/user-attachments/assets/b5d28dcf-7781-4fa4-bfa0-9fc2a60a1935" width="650" height="600">
       </details>
 
    </div>
