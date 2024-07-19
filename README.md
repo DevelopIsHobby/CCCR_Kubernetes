@@ -30,7 +30,7 @@
       <img src="https://github.com/user-attachments/assets/68abc701-eeff-4e0b-bed9-4fb9c22fe922"width="400" height="250" >
     </details>
 
-   <h3>2. 워드프레스 도커 이미지 직접 생성</h3>
+   <h3>2. 도커에서 워드프레스 이미지 생성</h3>
       <details>
       <h5>도커 이미지 생성 후 도커 허브에 저장</h5>
       <img src="https://github.com/user-attachments/assets/b293f982-c7ad-48b9-be95-e72673d75c6c"width="700" height="100" ><br>
@@ -38,15 +38,17 @@
       <img src="https://github.com/user-attachments/assets/27fe1706-c628-4bfd-8bf2-0f2f49733728"width="700" height="500" >
       <h5>도커 컨테이너 실행</h5>
       <img src="https://github.com/user-attachments/assets/c6e0cd8d-91d3-4650-a644-199da7eca85d"width="1200" height="100" >
+      <img src="https://github.com/user-attachments/assets/39d9df61-4429-453c-8e4b-f005a0e6f402"width="600" height="650" >
      </details>
       
-  <h3>3. RDS Replica</h3>
+  <h3>3. 쿠버네티스에서 워드프레스 구현</h3>
     <details>
-      <h5>RDS가 정상적으로 생성되었는지 확인</h5>
-      <img src="https://github.com/DevelopIsHobby/CCCR_Terraform/assets/107912101/4c07a473-d390-4e36-9104-70431a8c9ff6"width="900" height="100" ><br><br>
-      <img src="https://github.com/DevelopIsHobby/CCCR_Terraform/assets/107912101/b7183f78-7087-47be-9298-765d13c5ea7e"width="900" height="100" >
-      <h5>Replica 생성 확인</h5>
-      <img src="https://github.com/DevelopIsHobby/CCCR_Terraform/assets/107912101/57fe02c9-b9ed-4f03-afd0-fae5cd601e24"width="900" height="130" ></details>
+      <h5>파드</h5>
+      <img src="https://github.com/user-attachments/assets/d3ffab01-6c8a-4adb-a8ef-5eb671dac270"width="650" height="200" >
+      <h5>서비스</h5>
+      <img src="https://github.com/user-attachments/assets/2c45172d-2e1d-4585-a89b-798a42413488"width="600" height="150" >
+      <h5>워드프레스</h5>
+      <img src="https://github.com/user-attachments/assets/7ade152a-7862-488c-b7fb-722d459d6799"width="600" height="650" ></details>
 
    <h3>4. AutoScaling</h3>
       <details>
