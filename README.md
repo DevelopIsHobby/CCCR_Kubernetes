@@ -15,23 +15,30 @@
    </div> 
     <h2 style="border-bottom: 1px solid #d8dee4; color: #282d33;">  :paw_prints: 아키텍처 </h2>  
     <div style="font-weight: 700; font-size: 15px; text-align: center; color: #282d33;">
-        <img src="https://github.com/user-attachments/assets/481ccf09-913b-4df1-afbc-11a7dab2f2e2">
+        <img src="https://github.com/user-attachments/assets/481ccf09-913b-4df1-afbc-11a7dab2f2e2" width="1200" height="500" >
     </div> 
     <div align= "center"> 
     <h2 style="border-bottom: 1px solid #d8dee4; color: #282d33;"> 🌹기능설명 </h2>  
     <div style="font-weight: 700; font-size: 15px; text-align: center; color: #282d33;">
-  <h3>1. Bastion 서버 로드 밸런싱</h3>
+  <h3>1. DB 이중화</h3>
   <details>
-      <h5>Bastion을 타겟 그룹으로 설정 한 로드 밸런서 IP 접속</h5>
-      <img src="https://github.com/DevelopIsHobby/CCCR_Terraform/assets/107912101/e8088f9a-d451-4a5f-bca0-c12a3c3102d7"width="700" height="150" ><br><br>
-      <img src="https://github.com/DevelopIsHobby/CCCR_Terraform/assets/107912101/480744e8-7e74-4d9e-9ff7-78ff1ee81c70"width="700" height="150" >
+      <h5>읽기 복제본에 "hello mysql"이 동기화 됨</h5>
+      <img src="https://github.com/user-attachments/assets/d12fd0e6-c1d0-4680-8c64-bd577c8133c7" width="800" height="400" ><br><br>
+      <h5>읽기 복제본에 워드프레스 데이터베이스 저장</h5>
+      <img src="https://github.com/user-attachments/assets/7430f10d-6ec2-40c0-a02f-ae745decc62f"width="600" height="650" >
+      <h5>읽기 복제본에 워드프레스 사용자 저장</h5>
+      <img src="https://github.com/user-attachments/assets/68abc701-eeff-4e0b-bed9-4fb9c22fe922"width="400" height="250" >
     </details>
 
-   <h3>2. Web 서버 로드 밸런싱</h3>
+   <h3>2. 워드프레스 도커 이미지 직접 생성</h3>
       <details>
-      <h5>Web을 타겟 그룹으로 설정 한 로드 밸런서 IP 접속</h5>
-      <img src="https://github.com/DevelopIsHobby/CCCR_Terraform/assets/107912101/f0bd6648-89fd-41f2-ac7e-f33d49e74d3a"width="700" height="150" ><br><br>
-      <img src="https://github.com/DevelopIsHobby/CCCR_Terraform/assets/107912101/0e324127-7626-4fbd-a1e0-5ccdd3418a8a"width="700" height="150" ></details>
+      <h5>도커 이미지 생성 후 도커 허브에 저장</h5>
+      <img src="https://github.com/user-attachments/assets/b293f982-c7ad-48b9-be95-e72673d75c6c"width="700" height="100" ><br>
+      <img src="https://github.com/user-attachments/assets/c9bde1ad-2fc7-49d3-aff8-2fd6356de84a"width="700" height="170">
+      <img src="https://github.com/user-attachments/assets/27fe1706-c628-4bfd-8bf2-0f2f49733728"width="700" height="500" >
+      <h5>도커 컨테이너 실행</h5>
+      <img src="https://github.com/user-attachments/assets/c6e0cd8d-91d3-4650-a644-199da7eca85d"width="1200" height="100" >
+     </details>
       
   <h3>3. RDS Replica</h3>
     <details>
