@@ -6,14 +6,16 @@
     <div style="font-weight: 700; font-size: 15px; text-align: center; color: #282d33;"> </li>컨트롤 노드 : <b>Ubuntu</b></div><div>제어노드 : <b>Ubuntu</b></div>
     </div>
     <div align= "center"> 
-    <h2 style="border-bottom: 1px solid #d8dee4; color: #282d33;"> 🧸파일 구성 </h2>  
+    <h2 style="border-bottom: 1px solid #d8dee4; color: #282d33;"> 🧸구현 기능 </h2>  
     <div style="font-weight: 700; font-size: 15px; text-align: center; color: #282d33;">
-        <img src="https://github.com/DevelopIsHobby/CCCR_Terraform/assets/107912101/a0b1369b-5358-47f1-af0e-7486f3783f7e" width="700" height="600">
-        <img src="https://github.com/DevelopIsHobby/CCCR_Terraform/assets/107912101/eba76516-1ef9-4e54-86a6-f00810b31fea" width="710" height="80">
+    <i>NFS Storage(Dynamic Provisioning)</i><br>
+    <i>Dockerfile 활용 워드 프레스 이미지 직접 생성</i><br>
+    <i>StatefulSet 활용 DB 이중화</i><br>
+    <i>Ingress & AutoScaling 구현</i><br>
    </div> 
     <h2 style="border-bottom: 1px solid #d8dee4; color: #282d33;">  :paw_prints: 아키텍처 </h2>  
     <div style="font-weight: 700; font-size: 15px; text-align: center; color: #282d33;">
-        <img src="https://github.com/DevelopIsHobby/CCCR_Terraform/assets/107912101/be5c0179-3627-4734-9d3b-5129b4c5b291">
+        <img src="https://github.com/user-attachments/assets/481ccf09-913b-4df1-afbc-11a7dab2f2e2">
     </div> 
     <div align= "center"> 
     <h2 style="border-bottom: 1px solid #d8dee4; color: #282d33;"> 🌹기능설명 </h2>  
