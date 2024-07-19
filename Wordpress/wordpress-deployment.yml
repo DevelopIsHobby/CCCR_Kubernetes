@@ -1,0 +1,76 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: wordpress
+  labels:
+    app: wordpress
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: wordpress
+  strategy:
+    type: Recreate
+  template:
+    metadata:
+      labels:
+        app: wordpress
+    spec:
+      initContainers:
+      - name: init-wordpress
+        image: mskim6518/mskim-sample-repo:v1  # 내가 만든 도커 이미지
+        env:
+        - name: WORDPRESS_DB_HOST
+          value: mysql
+        - name: WORDPRESS_DB_NAME
+          value: wordpress
+        - name: WORDPRESS_DB_USER
+          value: wordpress
+        - name: WORDPRESS_DB_PASSWORD
+          value: '1234'
+        command:
+        - sh
+        - -c
+        - |
+          set -ex
+          ls /var/www/html/wordpress
+          if [ -f /var/www/html/wordpress/wp-config-sample.php ]; then
+            # wp-config.php 파일 생성
+            cp /var/www/html/wordpress/wp-config-sample.php /var/www/html/wordpress/wp-config.php
+            # 원하는 설정 추가
+            sed -i "s/'database_name_here'/'${WORDPRESS_DB_NAME}'/g" /var/www/html/wordpress/wp-config.php
+            sed -i "s/'username_here'/'${WORDPRESS_DB_USER}'/g" /var/www/html/wordpress/wp-config.php
+            sed -i "s/'password_here'/'${WORDPRESS_DB_PASSWORD}'/g" /var/www/html/wordpress/wp-config.php
+            sed -i "s/'localhost'/'${WORDPRESS_DB_HOST}'/g" /var/www/html/wordpress/wp-config.php
+          else
+            echo "wp-config-sample.php not found in /var/www/html/wordpress"
+            ls /var/www/html   # 파일 목록 출력을 통해 확인 가능
+            exit 1
+          fi
+
+          # 복사 작업 수행
+          cp -r /var/www/html/* /mnt/wordpress
+
+        volumeMounts:
+        - name: wordpress-persistent-storage
+          mountPath: /mnt/wordpress
+      containers:
+      - image: mskim6518/mskim-sample-repo:v1  # 내가 만든 도커 이미지
+        name: wordpress
+        resources:
+          requests:
+            cpu: 25m
+          limits:
+            cpu: 50m
+        ports:
+        - containerPort: 80
+          name: wordpress
+        volumeMounts:
+        - name: wordpress-persistent-storage
+          mountPath: /var/www/html
+        - name: wordpress-persistent-storage
+          mountPath: /mnt/wordpress
+      volumes:
+      - name: wordpress-persistent-storage
+        persistentVolumeClaim:
+          claimName: mini-pvc-dynamic
